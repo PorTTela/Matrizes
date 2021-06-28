@@ -70,13 +70,15 @@ namespace Matrizes
 
             for (int contadorm = 0; contadorm < m; contadorm++)
             {
+
                 for (int contadorn = 0; contadorn < n; contadorn++)
                 {
                     Console.Write(matriz[contadorm, contadorn] + " ");
 
                 }
+                Console.WriteLine();
             }
-            Console.WriteLine();
+            
             Console.WriteLine("-----------------------");
         }
     }
